@@ -1,8 +1,7 @@
 # app-placement — Configuration Netlify
 
 [build]
-  publish  = "."
-  command  = "node generate-config.js"
+  publish = "."
 
 [[redirects]]
   from   = "/*"
